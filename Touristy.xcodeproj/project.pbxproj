@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		03FE92A02FCABF05B1F8386C /* Pods_Touristy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8D6969C420E5C71E754CA0 /* Pods_Touristy.framework */; };
 		AF7091F21D5BDC03001DECE7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7091F11D5BDC03001DECE7 /* Default-568h@2x.png */; };
-		AFD1DEAB1D5BDA2B0012C3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE921D5BDA2B0012C3B4 /* AppDelegate.swift */; };
-		AFD1DEAC1D5BDA2B0012C3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD1DE931D5BDA2B0012C3B4 /* Assets.xcassets */; };
-		AFD1DEAD1D5BDA2B0012C3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1DE941D5BDA2B0012C3B4 /* LaunchScreen.storyboard */; };
-		AFD1DEAE1D5BDA2B0012C3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD1DE961D5BDA2B0012C3B4 /* Main.storyboard */; };
-		AFD1DEAF1D5BDA2B0012C3B4 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE991D5BDA2B0012C3B4 /* AppController.swift */; };
-		AFD1DEB01D5BDA2B0012C3B4 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE9A1D5BDA2B0012C3B4 /* CameraViewController.swift */; };
-		AFD1DEB11D5BDA2B0012C3B4 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE9B1D5BDA2B0012C3B4 /* InitialViewController.swift */; };
-		AFD1DEB21D5BDA2B0012C3B4 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE9C1D5BDA2B0012C3B4 /* NavigationController.swift */; };
-		AFD1DEB31D5BDA2B0012C3B4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE9D1D5BDA2B0012C3B4 /* TabBarController.swift */; };
-		AFD1DEB41D5BDA2B0012C3B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DE9E1D5BDA2B0012C3B4 /* ViewController.swift */; };
-		AFD1DEB51D5BDA2B0012C3B4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFD1DE9F1D5BDA2B0012C3B4 /* Info.plist */; };
-		AFD1DEB61D5BDA2B0012C3B4 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA11D5BDA2B0012C3B4 /* DataStore.swift */; };
-		AFD1DEB71D5BDA2B0012C3B4 /* TourSpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA21D5BDA2B0012C3B4 /* TourSpotData.swift */; };
-		AFD1DEB81D5BDA2B0012C3B4 /* Touristy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA31D5BDA2B0012C3B4 /* Touristy.xcdatamodeld */; };
-		AFD1DEB91D5BDA2B0012C3B4 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA61D5BDA2B0012C3B4 /* Camera.swift */; };
-		AFD1DEBA1D5BDA2B0012C3B4 /* MainFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA81D5BDA2B0012C3B4 /* MainFeedCell.swift */; };
-		AFD1DEBB1D5BDA2B0012C3B4 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEA91D5BDA2B0012C3B4 /* MainTableView.swift */; };
-		AFD1DEBC1D5BDA2B0012C3B4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD1DEAA1D5BDA2B0012C3B4 /* MainView.swift */; };
+		AF70920D1D5BDC84001DECE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091F41D5BDC84001DECE7 /* AppDelegate.swift */; };
+		AF70920E1D5BDC84001DECE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7091F51D5BDC84001DECE7 /* Assets.xcassets */; };
+		AF70920F1D5BDC84001DECE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7091F61D5BDC84001DECE7 /* LaunchScreen.storyboard */; };
+		AF7092101D5BDC84001DECE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7091F81D5BDC84001DECE7 /* Main.storyboard */; };
+		AF7092111D5BDC84001DECE7 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FB1D5BDC84001DECE7 /* AppController.swift */; };
+		AF7092121D5BDC84001DECE7 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FC1D5BDC84001DECE7 /* CameraViewController.swift */; };
+		AF7092131D5BDC84001DECE7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FD1D5BDC84001DECE7 /* InitialViewController.swift */; };
+		AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */; };
+		AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */; };
+		AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092001D5BDC84001DECE7 /* ViewController.swift */; };
+		AF7092171D5BDC84001DECE7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF7092011D5BDC84001DECE7 /* Info.plist */; };
+		AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092031D5BDC84001DECE7 /* DataStore.swift */; };
+		AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092041D5BDC84001DECE7 /* TourSpotData.swift */; };
+		AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF7092051D5BDC84001DECE7 /* Touristy.xcdatamodeld */; };
+		AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092081D5BDC84001DECE7 /* Camera.swift */; };
+		AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70920A1D5BDC84001DECE7 /* MainFeedCell.swift */; };
+		AF70921D1D5BDC84001DECE7 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70920B1D5BDC84001DECE7 /* MainTableView.swift */; };
+		AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF70920C1D5BDC84001DECE7 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,25 +34,25 @@
 		7F8D6969C420E5C71E754CA0 /* Pods_Touristy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touristy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9110BD32C09D5AEEE71F17DC /* Pods-Touristy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touristy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Touristy/Pods-Touristy.release.xcconfig"; sourceTree = "<group>"; };
 		AF7091F11D5BDC03001DECE7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF7091F41D5BDC84001DECE7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF7091F51D5BDC84001DECE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF7091F71D5BDC84001DECE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF7091F91D5BDC84001DECE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF7091FB1D5BDC84001DECE7 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		AF7091FC1D5BDC84001DECE7 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		AF7091FD1D5BDC84001DECE7 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AF7092001D5BDC84001DECE7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF7092011D5BDC84001DECE7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF7092031D5BDC84001DECE7 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		AF7092041D5BDC84001DECE7 /* TourSpotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourSpotData.swift; sourceTree = "<group>"; };
+		AF7092061D5BDC84001DECE7 /* Touristy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touristy.xcdatamodel; sourceTree = "<group>"; };
+		AF7092081D5BDC84001DECE7 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		AF70920A1D5BDC84001DECE7 /* MainFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFeedCell.swift; sourceTree = "<group>"; };
+		AF70920B1D5BDC84001DECE7 /* MainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		AF70920C1D5BDC84001DECE7 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AFD1DE791D5BD9F60012C3B4 /* Touristy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touristy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFD1DE921D5BDA2B0012C3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFD1DE931D5BDA2B0012C3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFD1DE951D5BDA2B0012C3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AFD1DE971D5BDA2B0012C3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFD1DE991D5BDA2B0012C3B4 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
-		AFD1DE9A1D5BDA2B0012C3B4 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		AFD1DE9B1D5BDA2B0012C3B4 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
-		AFD1DE9C1D5BDA2B0012C3B4 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		AFD1DE9D1D5BDA2B0012C3B4 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		AFD1DE9E1D5BDA2B0012C3B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFD1DE9F1D5BDA2B0012C3B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFD1DEA11D5BDA2B0012C3B4 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		AFD1DEA21D5BDA2B0012C3B4 /* TourSpotData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourSpotData.swift; sourceTree = "<group>"; };
-		AFD1DEA41D5BDA2B0012C3B4 /* Touristy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touristy.xcdatamodel; sourceTree = "<group>"; };
-		AFD1DEA61D5BDA2B0012C3B4 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		AFD1DEA81D5BDA2B0012C3B4 /* MainFeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFeedCell.swift; sourceTree = "<group>"; };
-		AFD1DEA91D5BDA2B0012C3B4 /* MainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
-		AFD1DEAA1D5BDA2B0012C3B4 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +67,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF7091F31D5BDC84001DECE7 /* Touristy */ = {
+			isa = PBXGroup;
+			children = (
+				AF7091F41D5BDC84001DECE7 /* AppDelegate.swift */,
+				AF7091F51D5BDC84001DECE7 /* Assets.xcassets */,
+				AF7091F61D5BDC84001DECE7 /* LaunchScreen.storyboard */,
+				AF7091F81D5BDC84001DECE7 /* Main.storyboard */,
+				AF7091FA1D5BDC84001DECE7 /* Controllers */,
+				AF7092011D5BDC84001DECE7 /* Info.plist */,
+				AF7092021D5BDC84001DECE7 /* Models */,
+				AF7092051D5BDC84001DECE7 /* Touristy.xcdatamodeld */,
+				AF7092071D5BDC84001DECE7 /* Utilities */,
+				AF7092091D5BDC84001DECE7 /* Views */,
+			);
+			path = Touristy;
+			sourceTree = "<group>";
+		};
+		AF7091FA1D5BDC84001DECE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF7091FB1D5BDC84001DECE7 /* AppController.swift */,
+				AF7091FC1D5BDC84001DECE7 /* CameraViewController.swift */,
+				AF7091FD1D5BDC84001DECE7 /* InitialViewController.swift */,
+				AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */,
+				AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */,
+				AF7092001D5BDC84001DECE7 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AF7092021D5BDC84001DECE7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF7092031D5BDC84001DECE7 /* DataStore.swift */,
+				AF7092041D5BDC84001DECE7 /* TourSpotData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF7092071D5BDC84001DECE7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF7092081D5BDC84001DECE7 /* Camera.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AF7092091D5BDC84001DECE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF70920A1D5BDC84001DECE7 /* MainFeedCell.swift */,
+				AF70920B1D5BDC84001DECE7 /* MainTableView.swift */,
+				AF70920C1D5BDC84001DECE7 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AFD1DE701D5BD9F60012C3B4 = {
 			isa = PBXGroup;
 			children = (
+				AF7091F31D5BDC84001DECE7 /* Touristy */,
 				AF7091F11D5BDC03001DECE7 /* Default-568h@2x.png */,
-				AFD1DE911D5BDA2B0012C3B4 /* Touristy */,
 				AFD1DE7A1D5BD9F60012C3B4 /* Products */,
 				E2AC47D3AEFD86A9FF4467B1 /* Pods */,
 				BBCD3A09BB99ADFA09E30769 /* Frameworks */,
@@ -84,64 +141,6 @@
 				AFD1DE791D5BD9F60012C3B4 /* Touristy.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AFD1DE911D5BDA2B0012C3B4 /* Touristy */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1DE921D5BDA2B0012C3B4 /* AppDelegate.swift */,
-				AFD1DE931D5BDA2B0012C3B4 /* Assets.xcassets */,
-				AFD1DE941D5BDA2B0012C3B4 /* LaunchScreen.storyboard */,
-				AFD1DE961D5BDA2B0012C3B4 /* Main.storyboard */,
-				AFD1DE981D5BDA2B0012C3B4 /* Controllers */,
-				AFD1DE9F1D5BDA2B0012C3B4 /* Info.plist */,
-				AFD1DEA01D5BDA2B0012C3B4 /* Models */,
-				AFD1DEA31D5BDA2B0012C3B4 /* Touristy.xcdatamodeld */,
-				AFD1DEA51D5BDA2B0012C3B4 /* Utilities */,
-				AFD1DEA71D5BDA2B0012C3B4 /* Views */,
-			);
-			name = Touristy;
-			path = ../Desktop/Touristy/Touristy;
-			sourceTree = "<group>";
-		};
-		AFD1DE981D5BDA2B0012C3B4 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1DE991D5BDA2B0012C3B4 /* AppController.swift */,
-				AFD1DE9A1D5BDA2B0012C3B4 /* CameraViewController.swift */,
-				AFD1DE9B1D5BDA2B0012C3B4 /* InitialViewController.swift */,
-				AFD1DE9C1D5BDA2B0012C3B4 /* NavigationController.swift */,
-				AFD1DE9D1D5BDA2B0012C3B4 /* TabBarController.swift */,
-				AFD1DE9E1D5BDA2B0012C3B4 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		AFD1DEA01D5BDA2B0012C3B4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1DEA11D5BDA2B0012C3B4 /* DataStore.swift */,
-				AFD1DEA21D5BDA2B0012C3B4 /* TourSpotData.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		AFD1DEA51D5BDA2B0012C3B4 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1DEA61D5BDA2B0012C3B4 /* Camera.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		AFD1DEA71D5BDA2B0012C3B4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				AFD1DEA81D5BDA2B0012C3B4 /* MainFeedCell.swift */,
-				AFD1DEA91D5BDA2B0012C3B4 /* MainTableView.swift */,
-				AFD1DEAA1D5BDA2B0012C3B4 /* MainView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		BBCD3A09BB99ADFA09E30769 /* Frameworks */ = {
@@ -222,11 +221,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD1DEB51D5BDA2B0012C3B4 /* Info.plist in Resources */,
-				AFD1DEAE1D5BDA2B0012C3B4 /* Main.storyboard in Resources */,
-				AFD1DEAC1D5BDA2B0012C3B4 /* Assets.xcassets in Resources */,
+				AF70920F1D5BDC84001DECE7 /* LaunchScreen.storyboard in Resources */,
+				AF70920E1D5BDC84001DECE7 /* Assets.xcassets in Resources */,
 				AF7091F21D5BDC03001DECE7 /* Default-568h@2x.png in Resources */,
-				AFD1DEAD1D5BDA2B0012C3B4 /* LaunchScreen.storyboard in Resources */,
+				AF7092171D5BDC84001DECE7 /* Info.plist in Resources */,
+				AF7092101D5BDC84001DECE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,38 +284,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFD1DEBB1D5BDA2B0012C3B4 /* MainTableView.swift in Sources */,
-				AFD1DEBC1D5BDA2B0012C3B4 /* MainView.swift in Sources */,
-				AFD1DEB91D5BDA2B0012C3B4 /* Camera.swift in Sources */,
-				AFD1DEB81D5BDA2B0012C3B4 /* Touristy.xcdatamodeld in Sources */,
-				AFD1DEBA1D5BDA2B0012C3B4 /* MainFeedCell.swift in Sources */,
-				AFD1DEAB1D5BDA2B0012C3B4 /* AppDelegate.swift in Sources */,
-				AFD1DEB61D5BDA2B0012C3B4 /* DataStore.swift in Sources */,
-				AFD1DEAF1D5BDA2B0012C3B4 /* AppController.swift in Sources */,
-				AFD1DEB21D5BDA2B0012C3B4 /* NavigationController.swift in Sources */,
-				AFD1DEB31D5BDA2B0012C3B4 /* TabBarController.swift in Sources */,
-				AFD1DEB41D5BDA2B0012C3B4 /* ViewController.swift in Sources */,
-				AFD1DEB71D5BDA2B0012C3B4 /* TourSpotData.swift in Sources */,
-				AFD1DEB01D5BDA2B0012C3B4 /* CameraViewController.swift in Sources */,
-				AFD1DEB11D5BDA2B0012C3B4 /* InitialViewController.swift in Sources */,
+				AF70921D1D5BDC84001DECE7 /* MainTableView.swift in Sources */,
+				AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */,
+				AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */,
+				AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */,
+				AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */,
+				AF70920D1D5BDC84001DECE7 /* AppDelegate.swift in Sources */,
+				AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */,
+				AF7092111D5BDC84001DECE7 /* AppController.swift in Sources */,
+				AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */,
+				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,
+				AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */,
+				AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */,
+				AF7092121D5BDC84001DECE7 /* CameraViewController.swift in Sources */,
+				AF7092131D5BDC84001DECE7 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AFD1DE941D5BDA2B0012C3B4 /* LaunchScreen.storyboard */ = {
+		AF7091F61D5BDC84001DECE7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AFD1DE951D5BDA2B0012C3B4 /* Base */,
+				AF7091F71D5BDC84001DECE7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		AFD1DE961D5BDA2B0012C3B4 /* Main.storyboard */ = {
+		AF7091F81D5BDC84001DECE7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AFD1DE971D5BDA2B0012C3B4 /* Base */,
+				AF7091F91D5BDC84001DECE7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -455,12 +454,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AFD1DEA31D5BDA2B0012C3B4 /* Touristy.xcdatamodeld */ = {
+		AF7092051D5BDC84001DECE7 /* Touristy.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				AFD1DEA41D5BDA2B0012C3B4 /* Touristy.xcdatamodel */,
+				AF7092061D5BDC84001DECE7 /* Touristy.xcdatamodel */,
 			);
-			currentVersion = AFD1DEA41D5BDA2B0012C3B4 /* Touristy.xcdatamodel */;
+			currentVersion = AF7092061D5BDC84001DECE7 /* Touristy.xcdatamodel */;
 			path = Touristy.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
