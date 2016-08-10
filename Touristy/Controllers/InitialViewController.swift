@@ -12,6 +12,9 @@ import SnapKit
 class InitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.greenColor()
+        self.title = "item1"
+        print("item 1 loaded")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
