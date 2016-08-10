@@ -12,9 +12,14 @@ import SnapKit
 class InitialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.greenColor()
-        self.title = "item1"
-        print("item 1 loaded")
+        let navBar: UINavigationBar = UINavigationBar(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 60))
+        self.view.addSubview(navBar)
+        let navItem = UINavigationItem(title: "Project Ovaltine")
+        let homeItem = UIBarButtonItem.init(title: "Home", style: .Done, target: nil, action: #selector(dismissView))
+        navItem.leftBarButtonItem = homeItem
+        navBar.setItems([navItem], animated: false)
+        self.view.backgroundColor = UIColor.grayColor()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -23,4 +28,7 @@ class InitialViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func dismissView() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 }
