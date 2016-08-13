@@ -35,6 +35,8 @@
 		AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5C1D5C55400012A55B /* Searchable.swift */; };
 		AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */; };
 		AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */; };
+		AFDC1E651D5FCE99005C1CCF /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */; };
+		AFDC1E671D5FCF81005C1CCF /* ButtonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		AFD9AD5C1D5C55400012A55B /* Searchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchable.swift; sourceTree = "<group>"; };
 		AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 		AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 				AF70920B1D5BDC84001DECE7 /* MainTableView.swift */,
 				AF70920C1D5BDC84001DECE7 /* MainView.swift */,
 				AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */,
+				AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */,
+				AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,12 +325,14 @@
 			files = (
 				AF70921D1D5BDC84001DECE7 /* MainTableView.swift in Sources */,
 				AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */,
+				AFDC1E671D5FCF81005C1CCF /* ButtonTypes.swift in Sources */,
 				AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */,
 				AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */,
 				AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */,
 				AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */,
 				AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */,
 				AF70920D1D5BDC84001DECE7 /* AppDelegate.swift in Sources */,
+				AFDC1E651D5FCE99005C1CCF /* RecordButton.swift in Sources */,
 				AF7092231D5BE503001DECE7 /* Locations.swift in Sources */,
 				AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */,
 				AF7092251D5BE534001DECE7 /* HistoricalLocations.swift in Sources */,

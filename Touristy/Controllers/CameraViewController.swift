@@ -14,6 +14,7 @@ class CameraViewController: UIViewController {
     
     //var founderImage: UIImageView! = UIImageView()
     var augmentedImage: UIImageView! = UIImageView()
+    var recordButton: UIButton! = RecordButton().setupButton()
     var cancelButton: UIButton! = UIButton()
     
     lazy var previewLayer: AVCaptureVideoPreviewLayer = {
