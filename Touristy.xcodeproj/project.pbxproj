@@ -19,7 +19,6 @@
 		AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */; };
 		AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */; };
 		AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092001D5BDC84001DECE7 /* ViewController.swift */; };
-		AF7092171D5BDC84001DECE7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF7092011D5BDC84001DECE7 /* Info.plist */; };
 		AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092031D5BDC84001DECE7 /* DataStore.swift */; };
 		AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092041D5BDC84001DECE7 /* TourSpotData.swift */; };
 		AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF7092051D5BDC84001DECE7 /* Touristy.xcdatamodeld */; };
@@ -30,6 +29,10 @@
 		AF7092211D5BE4CF001DECE7 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092201D5BE4CF001DECE7 /* APIClient.swift */; };
 		AF7092231D5BE503001DECE7 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092221D5BE503001DECE7 /* Locations.swift */; };
 		AF7092251D5BE534001DECE7 /* HistoricalLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */; };
+		AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092261D5BE610001DECE7 /* AppFont.swift */; };
+		AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD581D5C551C0012A55B /* Navigable.swift */; };
+		AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5A1D5C55330012A55B /* Tabable.swift */; };
+		AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5C1D5C55400012A55B /* Searchable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +61,11 @@
 		AF7092201D5BE4CF001DECE7 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		AF7092221D5BE503001DECE7 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalLocations.swift; sourceTree = "<group>"; };
+		AF7092261D5BE610001DECE7 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		AFD1DE791D5BD9F60012C3B4 /* Touristy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touristy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD9AD581D5C551C0012A55B /* Navigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
+		AFD9AD5A1D5C55330012A55B /* Tabable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabable.swift; sourceTree = "<group>"; };
+		AFD9AD5C1D5C55400012A55B /* Searchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +101,9 @@
 				AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */,
 				AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */,
 				AF7092001D5BDC84001DECE7 /* ViewController.swift */,
+				AFD9AD581D5C551C0012A55B /* Navigable.swift */,
+				AFD9AD5A1D5C55330012A55B /* Tabable.swift */,
+				AFD9AD5C1D5C55400012A55B /* Searchable.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -105,6 +115,7 @@
 				AF7092041D5BDC84001DECE7 /* TourSpotData.swift */,
 				AF7092221D5BE503001DECE7 /* Locations.swift */,
 				AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */,
+				AF7092261D5BE610001DECE7 /* AppFont.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -241,7 +252,6 @@
 				AF70920F1D5BDC84001DECE7 /* LaunchScreen.storyboard in Resources */,
 				AF70920E1D5BDC84001DECE7 /* Assets.xcassets in Resources */,
 				AF7091F21D5BDC03001DECE7 /* Default-568h@2x.png in Resources */,
-				AF7092171D5BDC84001DECE7 /* Info.plist in Resources */,
 				AF7092101D5BDC84001DECE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +313,7 @@
 			files = (
 				AF70921D1D5BDC84001DECE7 /* MainTableView.swift in Sources */,
 				AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */,
+				AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */,
 				AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */,
 				AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */,
 				AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */,
@@ -311,12 +322,15 @@
 				AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */,
 				AF7092251D5BE534001DECE7 /* HistoricalLocations.swift in Sources */,
 				AF7092111D5BDC84001DECE7 /* AppController.swift in Sources */,
+				AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */,
 				AF7092211D5BE4CF001DECE7 /* APIClient.swift in Sources */,
 				AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */,
 				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,
+				AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */,
 				AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */,
 				AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */,
 				AF7092121D5BDC84001DECE7 /* CameraViewController.swift in Sources */,
+				AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */,
 				AF7092131D5BDC84001DECE7 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
