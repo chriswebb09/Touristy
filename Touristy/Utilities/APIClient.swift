@@ -34,7 +34,7 @@ protocol Request {
 }
 
 struct GetRequest: Request {
-    var method: String { return MethodRouter.POST.method }
+    var method: String { return MethodRouter.GET.method }
     var baseURL: String
     var URLPath: String
     var parameters: Dictionary<String, String>
@@ -47,7 +47,12 @@ struct GetRequest: Request {
         self.headers = headers
     }
     
-    func sendGetRequest {
-    
+    func buildRequest() -> NSURLRequest? {
+        guard let baseURL = NSURL(string: self.baseURL + self.URLPath) else { return nil }
+        guard let URLComponents = NSURLComponents(URL: baseURL, resolvingAgainstBaseURL: true) else { return nil }
+        guard let URL = URLComponents.URL else { return nil }
+        let request = NSMutableURLRequest(URL:URL)
+        request.HTTPMethod = method
+        return request
     }
 }
