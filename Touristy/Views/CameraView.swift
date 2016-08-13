@@ -1,19 +1,19 @@
 //
-//  CameraViewController.swift
+//  CameraView.swift
 //  Touristy
 //
-//  Created by Christopher Webb-Orenstein on 8/10/16.
+//  Created by Christopher Webb-Orenstein on 8/13/16.
 //  Copyright © 2016 Christopher Webb-Orenstein. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
 
-class CameraViewController: UIViewController {
+class CameraView: UIViewController {
     var headsUpDisplay = Camera()
-    
-    //var founderImage: UIImageView! = UIImageView()
+    var founderImage: UIImageView! = UIImageView()
     var augmentedImage: UIImageView! = UIImageView()
+    
     var cancelButton: UIButton! = UIButton()
     
     lazy var previewLayer: AVCaptureVideoPreviewLayer = {
@@ -41,10 +41,9 @@ class CameraViewController: UIViewController {
         return session
     }()
     
-    @IBAction func cancelButtonTapped(sender: AnyObject) {
+    func cancelButtonTapped(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
 }
-
 

@@ -33,6 +33,8 @@
 		AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD581D5C551C0012A55B /* Navigable.swift */; };
 		AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5A1D5C55330012A55B /* Tabable.swift */; };
 		AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5C1D5C55400012A55B /* Searchable.swift */; };
+		AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */; };
+		AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +68,8 @@
 		AFD9AD581D5C551C0012A55B /* Navigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
 		AFD9AD5A1D5C55330012A55B /* Tabable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabable.swift; sourceTree = "<group>"; };
 		AFD9AD5C1D5C55400012A55B /* Searchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Searchable.swift; sourceTree = "<group>"; };
+		AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 				AFD9AD581D5C551C0012A55B /* Navigable.swift */,
 				AFD9AD5A1D5C55330012A55B /* Tabable.swift */,
 				AFD9AD5C1D5C55400012A55B /* Searchable.swift */,
+				AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				AF70920A1D5BDC84001DECE7 /* MainFeedCell.swift */,
 				AF70920B1D5BDC84001DECE7 /* MainTableView.swift */,
 				AF70920C1D5BDC84001DECE7 /* MainView.swift */,
+				AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,6 +321,7 @@
 				AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */,
 				AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */,
 				AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */,
+				AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */,
 				AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */,
 				AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */,
 				AF70920D1D5BDC84001DECE7 /* AppDelegate.swift in Sources */,
@@ -328,6 +335,7 @@
 				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,
 				AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */,
 				AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */,
+				AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */,
 				AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */,
 				AF7092121D5BDC84001DECE7 /* CameraViewController.swift in Sources */,
 				AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */,

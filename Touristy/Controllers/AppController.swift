@@ -17,7 +17,7 @@ class AppController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        let tabOne = InitialViewController()
+        let tabOne = MapKitViewController()
         let tabTwo = CameraViewController()
         tabOne.tabBarItem.title = "Initial View"
         tabOne.tabBarItem.image = UIImage(named: "heart")
