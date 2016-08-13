@@ -14,8 +14,8 @@ class CameraViewController: UIViewController {
     
     //var founderImage: UIImageView! = UIImageView()
     var augmentedImage: UIImageView! = UIImageView()
-    var recordButton: UIButton! = RecordButton().setupButton()
-    var cancelButton: UIButton! = UIButton()
+    var recordButton: UIButton! = RecordButton().setup()
+    var cancelButton: UIButton! = CancelButton().setup()
     
     lazy var previewLayer: AVCaptureVideoPreviewLayer = {
         let preview =  AVCaptureVideoPreviewLayer(session: self.headsUpDisplay.cameraSession)
@@ -24,6 +24,13 @@ class CameraViewController: UIViewController {
         preview.videoGravity = AVLayerVideoGravityResize
         return preview
     }()
+    
+    lazy var cameraSession: AVCaptureSession = {
+        let session = AVCaptureSession()
+        session.sessionPreset = AVCaptureSessionPresetLow
+        return session
+    }()
+    
     
     override func viewDidLoad() {
         self.headsUpDisplay.setupCameraSession()
@@ -36,13 +43,7 @@ class CameraViewController: UIViewController {
         view.bringSubviewToFront(augmentedImage)
     }
     
-    lazy var cameraSession: AVCaptureSession = {
-        let session = AVCaptureSession()
-        session.sessionPreset = AVCaptureSessionPresetLow
-        return session
-    }()
-    
-    @IBAction func cancelButtonTapped(sender: AnyObject) {
+    func cancelButtonTapped(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
