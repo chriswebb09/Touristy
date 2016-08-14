@@ -12,7 +12,7 @@ struct AppFont {
     let appFontName = "HelveticaNeue-UltraLight"
     let appFontSize = CGFloat(20)
     //let newFont = UIFont(name: "HelveticaNeue-UltraLight", size:10)
-    //et nextFont = UIFont(name: <#T##String#>, size: <#T##CGFloat#>)
+    //let nextFont = UIFont(name: <#T##String#>, size: <#T##CGFloat#>)
 //    func returnFontedLabel(label: UILabel) {
 //        label.font = UIFont (name: "HelveticaNeue-UltraLight", size: label.font.pointSize)
 //        

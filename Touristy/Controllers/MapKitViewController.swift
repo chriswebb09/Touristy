@@ -88,3 +88,23 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 //        self.mapView.setRegion(coordinateRegion, animated: true)
 //    }
 }
+
+
+
+extension MapViewController: CLLocationManagerDelegate {
+    func getUserLocation() -> CLLocation? {
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startMonitoringSignificantLocationChanges()
+        
+        let userAuthorized = (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedAlways)
+        if userAuthorized { return locationManager.location } else { return nil }
+    }
+    
+    private func setupCurrentLocation() {
+        if let location = getUserLocation() {
+            userStartLocation = location 
+        }
+    }
+}
