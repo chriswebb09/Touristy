@@ -88,7 +88,28 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 //        self.mapView.setRegion(coordinateRegion, animated: true)
 //    }
 }
+//func loadOverlayForRegionWithLatitude(latitude: Double, andLongitude longitude: Double) {
+//    
+//    //1
+//    let coordinates = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
+//    //2
+//    circle = MKCircle(centerCoordinate: coordinates, radius: 200000)
+//    //3
+//    self.mapView.setRegion(MKCoordinateRegion(center: coordinates, span: MKCoordinateSpan(latitudeDelta: 7, longitudeDelta: 7)), animated: true)
+//    //4
+//    self.mapView.addOverlay(circle)
+//}
 
+//
+//
+//func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
+//    
+//    let circleRenderer = MKCircleRenderer(overlay: overlay)
+//    circleRenderer.fillColor = UIColor.blueColor().colorWithAlphaComponent(0.1)
+//    circleRenderer.strokeColor = UIColor.blueColor()
+//    circleRenderer.lineWidth = 1
+//    return circleRenderer
+//}
 
 
 extension MapViewController: CLLocationManagerDelegate {
