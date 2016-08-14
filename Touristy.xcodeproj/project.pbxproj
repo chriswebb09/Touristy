@@ -30,6 +30,8 @@
 		AF7092231D5BE503001DECE7 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092221D5BE503001DECE7 /* Locations.swift */; };
 		AF7092251D5BE534001DECE7 /* HistoricalLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */; };
 		AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092261D5BE610001DECE7 /* AppFont.swift */; };
+		AF7777EB1D61114400303DBB /* StartMenuVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */; };
+		AF7777ED1D61123500303DBB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EC1D61123500303DBB /* StartView.swift */; };
 		AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD581D5C551C0012A55B /* Navigable.swift */; };
 		AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5A1D5C55330012A55B /* Tabable.swift */; };
 		AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5C1D5C55400012A55B /* Searchable.swift */; };
@@ -66,6 +68,8 @@
 		AF7092221D5BE503001DECE7 /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalLocations.swift; sourceTree = "<group>"; };
 		AF7092261D5BE610001DECE7 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenuVIewController.swift; sourceTree = "<group>"; };
+		AF7777EC1D61123500303DBB /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AFD1DE791D5BD9F60012C3B4 /* Touristy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touristy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9AD581D5C551C0012A55B /* Navigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
 		AFD9AD5A1D5C55330012A55B /* Tabable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabable.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				AFD9AD5A1D5C55330012A55B /* Tabable.swift */,
 				AFD9AD5C1D5C55400012A55B /* Searchable.swift */,
 				AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */,
+				AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 				AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */,
 				AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */,
 				AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */,
+				AF7777EC1D61123500303DBB /* StartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,8 +347,10 @@
 				AF7092211D5BE4CF001DECE7 /* APIClient.swift in Sources */,
 				AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */,
 				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,
+				AF7777ED1D61123500303DBB /* StartView.swift in Sources */,
 				AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */,
 				AF7092161D5BDC84001DECE7 /* ViewController.swift in Sources */,
+				AF7777EB1D61114400303DBB /* StartMenuVIewController.swift in Sources */,
 				AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */,
 				AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */,
 				AF7092121D5BDC84001DECE7 /* CameraViewController.swift in Sources */,
