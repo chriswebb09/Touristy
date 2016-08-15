@@ -47,6 +47,10 @@ class CameraViewController: UIViewController {
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
+    func activateAtLocation() {
+        
+    }
+    
 }
 
 

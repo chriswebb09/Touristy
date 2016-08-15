@@ -32,6 +32,7 @@
 		AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7092261D5BE610001DECE7 /* AppFont.swift */; };
 		AF7777EB1D61114400303DBB /* StartMenuVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */; };
 		AF7777ED1D61123500303DBB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EC1D61123500303DBB /* StartView.swift */; };
+		AF7777EF1D611D6F00303DBB /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EE1D611D6F00303DBB /* Events.swift */; };
 		AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD581D5C551C0012A55B /* Navigable.swift */; };
 		AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5A1D5C55330012A55B /* Tabable.swift */; };
 		AFD9AD5D1D5C55400012A55B /* Searchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5C1D5C55400012A55B /* Searchable.swift */; };
@@ -39,6 +40,8 @@
 		AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */; };
 		AFDC1E651D5FCE99005C1CCF /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */; };
 		AFDC1E671D5FCF81005C1CCF /* ButtonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */; };
+		AFE759331D6280340072FF76 /* NSCoderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE759321D6280340072FF76 /* NSCoderExtension.swift */; };
+		AFE759351D6282C60072FF76 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE759341D6282C60072FF76 /* NavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +73,7 @@
 		AF7092261D5BE610001DECE7 /* AppFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
 		AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenuVIewController.swift; sourceTree = "<group>"; };
 		AF7777EC1D61123500303DBB /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		AF7777EE1D611D6F00303DBB /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		AFD1DE791D5BD9F60012C3B4 /* Touristy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touristy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD9AD581D5C551C0012A55B /* Navigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
 		AFD9AD5A1D5C55330012A55B /* Tabable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabable.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTypes.swift; sourceTree = "<group>"; };
+		AFE759321D6280340072FF76 /* NSCoderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSCoderExtension.swift; sourceTree = "<group>"; };
+		AFE759341D6282C60072FF76 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,7 @@
 				AF7092221D5BE503001DECE7 /* Locations.swift */,
 				AF7092241D5BE534001DECE7 /* HistoricalLocations.swift */,
 				AF7092261D5BE610001DECE7 /* AppFont.swift */,
+				AF7777EE1D611D6F00303DBB /* Events.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 			children = (
 				AF7092081D5BDC84001DECE7 /* Camera.swift */,
 				AF7092201D5BE4CF001DECE7 /* APIClient.swift */,
+				AFE759321D6280340072FF76 /* NSCoderExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 				AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */,
 				AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */,
 				AF7777EC1D61123500303DBB /* StartView.swift */,
+				AFE759341D6282C60072FF76 /* NavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -333,6 +342,8 @@
 				AF70921E1D5BDC84001DECE7 /* MainView.swift in Sources */,
 				AFDC1E671D5FCF81005C1CCF /* ButtonTypes.swift in Sources */,
 				AF7092271D5BE610001DECE7 /* AppFont.swift in Sources */,
+				AF7777EF1D611D6F00303DBB /* Events.swift in Sources */,
+				AFE759351D6282C60072FF76 /* NavBar.swift in Sources */,
 				AF70921B1D5BDC84001DECE7 /* Camera.swift in Sources */,
 				AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */,
 				AF70921A1D5BDC84001DECE7 /* Touristy.xcdatamodeld in Sources */,
@@ -344,6 +355,7 @@
 				AF7092251D5BE534001DECE7 /* HistoricalLocations.swift in Sources */,
 				AF7092111D5BDC84001DECE7 /* AppController.swift in Sources */,
 				AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */,
+				AFE759331D6280340072FF76 /* NSCoderExtension.swift in Sources */,
 				AF7092211D5BE4CF001DECE7 /* APIClient.swift in Sources */,
 				AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */,
 				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,

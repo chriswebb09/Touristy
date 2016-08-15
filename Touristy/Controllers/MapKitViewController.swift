@@ -19,8 +19,9 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
     var historicalLocal: [String: HistoricalLocation]?
     
     let mapView: MKMapView! = MKMapView()
-    let initialLocation = CLLocation(latitude: 34.4248, longitude: -118.5971)
+    var initialLocation = CLLocation(latitude: 34.4248, longitude: -118.5971)
     let regionRadius: CLLocationDistance = 1000
+    var locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         self.mapView.delegate = self
@@ -112,20 +113,20 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 //}
 
 
-extension MapViewController: CLLocationManagerDelegate {
+extension MapKitViewController: CLLocationManagerDelegate {
     func getUserLocation() -> CLLocation? {
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.startMonitoringSignificantLocationChanges()
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.startMonitoringSignificantLocationChanges()
         
         let userAuthorized = (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedAlways)
-        if userAuthorized { return locationManager.location } else { return nil }
+        if userAuthorized { return self.locationManager.location } else { return nil }
     }
     
     private func setupCurrentLocation() {
         if let location = getUserLocation() {
-            userStartLocation = location 
+            self.initialLocation = location
         }
     }
 }
