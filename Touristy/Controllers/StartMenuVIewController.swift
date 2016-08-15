@@ -12,7 +12,8 @@ class StartMenuViewController: UIViewController {
     var startButton: UIButton! = StartTourButton().setup()
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
-        self.view.addSubview(self.startButton)
+        //self.view = StartView()
+       self.view.addSubview(StartView()!)
         //self.view.backgroundColor = UIColor.grayColor()
     }
     
