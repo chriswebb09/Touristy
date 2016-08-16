@@ -31,20 +31,19 @@ class StartView: UIView {
     }
     
     func setupMenu() {
-        self.welcomeLabel.frame = CGRectMake(120, 200, 400, 60)
-        self.welcomeLabel.text = "Welcome to the game"
+        self.welcomeLabel.frame = CGRectMake(40, 200, 400, 60)
+        self.welcomeLabel.text = "Welcome to your historical adventure!"
         self.welcomeLabel.textColor = UIColor.blackColor()
         self.welcomeLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
         self.addSubview(self.welcomeLabel)
     }
     
     func setupButtons() {
-        self.startButton.frame = CGRectMake(130, 350, 150, 60)
+        self.startButton.frame = CGRectMake(125, 350, 150, 60)
         self.startButton.layer.backgroundColor = UIColor.blueColor().CGColor
         self.startButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         self.startButton.setTitle("Start", forState: .Normal)
     }
-    
 //    func setupConstaints() {
 //        self.startButton.snp_makeConstraints { (make) -> Void in
 //            make.center.equalTo(self)

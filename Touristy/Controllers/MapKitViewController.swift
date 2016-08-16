@@ -72,7 +72,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
                                 "Fraunces Tavern" : self.frauncesTavern,
                                 "Bowling Green" : self.bowlingGreen]
         self.mapView.frame = view.frame
-        self.view.addSubview(mapView)
+        self.view.addSubview(self.mapView)
         self.centerMapOnLocation(self.initialLocation)
     }
     
