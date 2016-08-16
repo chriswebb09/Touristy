@@ -9,7 +9,7 @@
 import UIKit
 
 class StartView: UIView {
-    
+    let welcomeLabel: UILabel! = UILabel()
     let startButton: UIButton! = UIButton()
     let settingsButton: UIButton! = UIButton()
     var navigationBar = NavBar().setup()
@@ -26,25 +26,30 @@ class StartView: UIView {
         self.addSubview(navigationBar)
         self.addSubview(settingsButton)
         self.addSubview(startButton)
-        self.setupConstaints()
+        self.setupMenu()
+//        self.setupConstaints()
     }
     
     func setupMenu() {
-        
+        self.welcomeLabel.frame = CGRectMake(120, 200, 400, 60)
+        self.welcomeLabel.text = "Welcome to the game"
+        self.welcomeLabel.textColor = UIColor.blackColor()
+        self.welcomeLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
+        self.addSubview(self.welcomeLabel)
     }
     
     func setupButtons() {
-        self.startButton.frame = CGRectMake(0, 0, 60, 45)
+        self.startButton.frame = CGRectMake(130, 350, 150, 60)
         self.startButton.layer.backgroundColor = UIColor.blueColor().CGColor
-        self.startButton.titleLabel!.text = "Start"
-        self.startButton.titleLabel?.textColor = UIColor.whiteColor()
+        self.startButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        self.startButton.setTitle("Start", forState: .Normal)
     }
     
-    func setupConstaints() {
-        self.startButton.snp_makeConstraints { (make) -> Void in
-            make.center.equalTo(self)
-        }
-    }
+//    func setupConstaints() {
+//        self.startButton.snp_makeConstraints { (make) -> Void in
+//            make.center.equalTo(self)
+//        }
+//    }
     
 //    func setupView() {
 //        self.graphView.snp_makeConstraints { (make) -> Void in
