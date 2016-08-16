@@ -8,14 +8,15 @@
 
 import UIKit
 
-class StartMenuViewController: UIViewController {
+class StartMenuViewController: UIViewController, Navigable {
     var startButton: UIButton! = StartTourButton().setup()
     let currentView = StartView()
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
       
         //self.view = StartView()
-       self.view.addSubview(self.currentView!)
+        self.view.addSubview(self.currentView!)
+        self.view.addSubview(self.setupNavBar())
         self.currentView?.startButton.addTarget(self, action: #selector(startButtonTapped), forControlEvents: UIControlEvents.TouchUpInside)
         //self.view.backgroundColor = UIColor.grayColor()
     }
@@ -31,7 +32,7 @@ class StartMenuViewController: UIViewController {
     }
     
     func startButtonTapped() {
-        let nextVC = MapKitViewController()
+        let nextVC = TabBarController()
         self.presentViewController(nextVC, animated: true, completion: nil)
     }
     

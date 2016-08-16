@@ -12,7 +12,7 @@ class StartView: UIView {
     let welcomeLabel: UILabel! = UILabel()
     let startButton: UIButton! = UIButton()
     let settingsButton: UIButton! = UIButton()
-    var navigationBar = NavBar().setup()
+    //var navigationBar = NavBar().setup()
     let titleLabel = UILabel()
     let screenHeight = UIScreen.mainScreen().bounds.height
     let screenWidth =  UIScreen.mainScreen().bounds.width
@@ -23,7 +23,7 @@ class StartView: UIView {
         self.frame = UIScreen.mainScreen().bounds
         self.layer.backgroundColor = UIColor.whiteColor().CGColor
         self.setupButtons()
-        self.addSubview(navigationBar)
+        //self.addSubview(navigationBar)
         self.addSubview(settingsButton)
         self.addSubview(startButton)
         self.setupMenu()
