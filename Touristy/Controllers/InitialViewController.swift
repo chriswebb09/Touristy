@@ -11,9 +11,12 @@ import SnapKit
 
 class InitialViewController: UIViewController, Navigable {
     
+    var VCTitleLabel: UILabel! = UILabel()
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
         self.view.addSubview(self.setupNavBar())
+        self.setupLabels()
         self.view.backgroundColor = UIColor.grayColor()
     }
     
@@ -25,6 +28,14 @@ class InitialViewController: UIViewController, Navigable {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setupLabels() {
+        self.VCTitleLabel.frame = CGRectMake(90, 300, 300, 80)
+        self.VCTitleLabel.text = "InitialViewController Loaded!"
+        self.VCTitleLabel.textColor = UIColor.whiteColor()
+        self.VCTitleLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
+        self.view.addSubview(self.VCTitleLabel)
     }
     
     func dismissView() {

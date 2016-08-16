@@ -26,7 +26,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         let controllers = [tabOne, tabTwo]
         self.viewControllers = controllers
         self.tabBar.tintColor = UIColor.whiteColor()
-        self.tabBar.barTintColor = UIColor(red:0.00, green:0.49, blue:0.90, alpha:1.0)
+        self.tabBar.barTintColor = UIColor(red:0.00, green:0.49, blue:0.76, alpha:1.0)
     }
     
     func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {

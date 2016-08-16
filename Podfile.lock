@@ -1,18 +1,21 @@
 PODS:
   - Alamofire (3.4.1)
+  - CircleMenu (1.0.7)
   - SnapKit (0.15.0)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - CircleMenu (~> 1.0.0)
   - SnapKit (~> 0.15.0)
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  CircleMenu: ddd8000fe2774497c367b8f6fcc2354a9a28f4db
   SnapKit: 4962eed2ee18e48cbd2b2292fffc57efe7235f87
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 10390ba1f1c23a73577697feb4df1cdbffaa5dff
+PODFILE CHECKSUM: 995ec5b7d5d1b56aa38f1e44e3cec8e2ab585411
 
 COCOAPODS: 1.0.1
