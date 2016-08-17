@@ -10,5 +10,7 @@ import UIKit
 import SwiftyJSON
 
 class DataStore {
+    static let sharedInstance = DataStore()
+    
     
 }
