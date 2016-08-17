@@ -36,7 +36,7 @@ struct StartTourButton {
     func setup() -> UIButton {
         self.startTourButton.frame = CGRect(x: 200, y: 200, width: 180, height: 90)
         self.startTourButton.layer.backgroundColor = UIColor.blueColor().CGColor
-        return self.startTourButton 
+        return self.startTourButton
     }
 }
 

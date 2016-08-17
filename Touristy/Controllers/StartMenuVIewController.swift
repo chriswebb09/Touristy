@@ -13,7 +13,7 @@ class StartMenuViewController: UIViewController, Navigable {
     let currentView = StartView()
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
-      
+        
         //self.view = StartView()
         self.view.addSubview(self.currentView!)
         self.view.addSubview(self.setupNavBar())

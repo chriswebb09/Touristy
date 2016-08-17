@@ -27,7 +27,7 @@ class StartView: UIView {
         self.addSubview(settingsButton)
         self.addSubview(startButton)
         self.setupMenu()
-//        self.setupConstaints()
+        //        self.setupConstaints()
     }
     
     func setupMenu() {
@@ -44,23 +44,23 @@ class StartView: UIView {
         self.startButton.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         self.startButton.setTitle("Start", forState: .Normal)
     }
-//    func setupConstaints() {
-//        self.startButton.snp_makeConstraints { (make) -> Void in
-//            make.center.equalTo(self)
-//        }
-//    }
+    //    func setupConstaints() {
+    //        self.startButton.snp_makeConstraints { (make) -> Void in
+    //            make.center.equalTo(self)
+    //        }
+    //    }
     
-//    func setupView() {
-//        self.graphView.snp_makeConstraints { (make) -> Void in
-//            make.size.equalTo(140)
-//            
-//            make.center.equalTo(self)
-//            make.left.equalTo(self).offset(20)
-//        }
-//        self.locationNameLabel.snp_makeConstraints { (make) -> Void in
-//            make.top.equalTo(self).offset(95)
-//            make.left.equalTo(self).offset(130)
-//            
-//        }
-//}
+    //    func setupView() {
+    //        self.graphView.snp_makeConstraints { (make) -> Void in
+    //            make.size.equalTo(140)
+    //
+    //            make.center.equalTo(self)
+    //            make.left.equalTo(self).offset(20)
+    //        }
+    //        self.locationNameLabel.snp_makeConstraints { (make) -> Void in
+    //            make.top.equalTo(self).offset(95)
+    //            make.left.equalTo(self).offset(130)
+    //            
+    //        }
+    //}
 }

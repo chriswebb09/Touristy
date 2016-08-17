@@ -9,7 +9,9 @@
 import UIKit
 
 class SplashScreenViewController: UIViewController {
+    let splashView = SplashScreenView()
+    
     override func viewDidLoad() {
-        
+        self.view.addSubview(splashView!)
     }
 }

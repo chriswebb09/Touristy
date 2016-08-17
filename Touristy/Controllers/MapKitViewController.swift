@@ -84,13 +84,13 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
                                animated: true)
     }
     
-//    func centerMapOnLocation(location: CLLocation) {
-//        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, self.regionRadius * 2.0, self.regionRadius * 2.0)
-//        self.mapView.setRegion(coordinateRegion, animated: true)
-//    }
+    //    func centerMapOnLocation(location: CLLocation) {
+    //        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, self.regionRadius * 2.0, self.regionRadius * 2.0)
+    //        self.mapView.setRegion(coordinateRegion, animated: true)
+    //    }
 }
 //func loadOverlayForRegionWithLatitude(latitude: Double, andLongitude longitude: Double) {
-//    
+//
 //    //1
 //    let coordinates = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
 //    //2
@@ -104,7 +104,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 //
 //
 //func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
-//    
+//
 //    let circleRenderer = MKCircleRenderer(overlay: overlay)
 //    circleRenderer.fillColor = UIColor.blueColor().colorWithAlphaComponent(0.1)
 //    circleRenderer.strokeColor = UIColor.blueColor()
