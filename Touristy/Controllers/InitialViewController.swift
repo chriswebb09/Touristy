@@ -11,7 +11,14 @@ import SnapKit
 
 class InitialViewController: UIViewController, Navigable {
     
-    var VCTitleLabel: UILabel! = UILabel()
+    var VCTitleLabel: UILabel! = UILabel() {
+        didSet {
+            self.VCTitleLabel.frame = CGRectMake(90, 300, 300, 80)
+            self.VCTitleLabel.text = "InitialViewController Loaded!"
+            self.VCTitleLabel.textColor = UIColor.whiteColor()
+            self.VCTitleLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
+        }
+    }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
@@ -31,10 +38,7 @@ class InitialViewController: UIViewController, Navigable {
     }
     
     func setupLabels() {
-        self.VCTitleLabel.frame = CGRectMake(90, 300, 300, 80)
-        self.VCTitleLabel.text = "InitialViewController Loaded!"
-        self.VCTitleLabel.textColor = UIColor.whiteColor()
-        self.VCTitleLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
+        
         self.view.addSubview(self.VCTitleLabel)
     }
     
