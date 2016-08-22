@@ -17,6 +17,7 @@ import Foundation
 import CoreData
 
 class CoreDataStore {
+    static let sharedInstance = CoreDataStore()
     let storeName = "Touristy"
     let storeFilename = "Touristy.sqlite"
     
