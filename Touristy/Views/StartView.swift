@@ -31,7 +31,7 @@ class StartView: UIView {
     }
     
     func setupMenu() {
-        self.welcomeLabel.frame = CGRectMake(40, 200, 400, 60)
+        //self.welcomeLabel.frame = CGRectMake(40, 200, 400, 60)
         self.welcomeLabel.text = "Welcome to your historical adventure!"
         self.welcomeLabel.textColor = UIColor.blackColor()
         self.welcomeLabel.font = UIFont(name:"AppleSDGothicNeo-Regular", size:20)
