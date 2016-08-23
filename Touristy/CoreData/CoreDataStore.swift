@@ -21,7 +21,7 @@ class CoreDataStore {
     let storeName = "Touristy"
     let storeFilename = "Touristy.sqlite"
     
-    var locationDataPoints: [LocationData] = []
+    var locationDataPoints: [LocationEntry] = []
     static let sharedDataStore = DataStore()
     //MARK: - Core Data Saving support
     
@@ -40,13 +40,30 @@ class CoreDataStore {
         
         let locationDataFetch = NSFetchRequest(entityName: "LocationData")
         do {
-            self.locationDataPoints = try self.managedObjectContext.executeRequest(locationDataFetch) as! [LocationData]
+            self.locationDataPoints = try self.managedObjectContext.executeRequest(locationDataFetch) as! [LocationEntry]
         } catch {
             let fetchError = error as NSError
             print(fetchError)
         }
     }
+    func generateTestData() {
+    }
     
+//        let locationOne = NSEntityDescription.insertNewObjectForEntityForName(Loc.entityName, inManagedObjectContext: self.managedObjectContext)
+//        let locationOne = NSEntityDescription.insertNewObjectForEntityForName(LocationData.entityName, inManagedObjectContext: self.managedObjectContext) as! LocationData
+//        locationOne
+        
+//        let message2 = NSEntityDescription.insertNewObjectForEntityForName(Message.entityName, inManagedObjectContext: self.managedObjectContext) as! Message
+//        message2.content = "First name next"
+//        message2.createdAt = NSDate()
+//        
+//        let message3 = NSEntityDescription.insertNewObjectForEntityForName(Message.entityName, inManagedObjectContext: self.managedObjectContext) as! Message
+//        message3.content = "New Name"
+//        message3.createdAt = NSDate()
+//        
+//        saveContext()
+//        fetchData()
+//    }
     lazy var managedObjectContext: NSManagedObjectContext = {
         let coordinator = self.persistentStoreCoordinator
         var managedObjectContext = NSManagedObjectContext(concurrencyType: .MainQueueConcurrencyType)

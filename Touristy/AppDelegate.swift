@@ -12,14 +12,12 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    var store = CoreDataStore.sharedInstance
+    var store = CoreDataStore.sharedDataStore
 
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        store.fetchData()
         window?.rootViewController = StartMenuViewController()
         window?.makeKeyAndVisible()
         return true
