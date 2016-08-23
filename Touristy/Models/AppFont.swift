@@ -20,3 +20,10 @@ struct AppFont {
     //        self.label.font = UIFont(name: "HelveticaNeue", size: fontSize)
     //    }
 }
+
+
+struct HelveticaNeueUltraLight {
+    func getFont(size:CGFloat) -> UIFont {
+        return UIFont(name: "HelveticaNeue-UltraLight", size: size)!
+    }
+}

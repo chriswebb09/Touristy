@@ -9,5 +9,8 @@
 import UIKit
 
 struct TourSpotData {
-    
+    var mostVisited: Int
+    var numberOfTriviaQuestionsAnsweredCorrectly: Int
+    var totalNumberOfTriviaQuestionsAsked: Int
+    var feedBackAfterTour: [String]
 }
