@@ -46,6 +46,7 @@ class StartView: UIView {
     
     func setupConstraints() {
         self.startButton.snp_makeConstraints { (make) -> Void in
+            make.width.equalTo(self).dividedBy(4)
             make.center.equalTo(self)
         }
         

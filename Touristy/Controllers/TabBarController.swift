@@ -17,13 +17,17 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        let tabOne = InitialViewController()
-        let tabTwo = StartMenuViewController()
-        tabOne.tabBarItem.title = "Initial View"
-        tabOne.tabBarItem.image = UIImage(named: "heart")
-        tabTwo.tabBarItem.title = "Camera View"
-        tabTwo.tabBarItem.image = UIImage(named: "star")
-        let controllers = [tabOne, tabTwo]
+        
+        let initTab = InitialViewController()
+        let startTab = StartMenuViewController()
+        
+        initTab.tabBarItem.title = "Initial View"
+        initTab.tabBarItem.image = UIImage(named: "heart")
+        startTab.tabBarItem.title = "Camera View"
+        startTab.tabBarItem.image = UIImage(named: "star")
+        
+        let controllers = [initTab, startTab]
+        
         self.viewControllers = controllers
         self.tabBar.tintColor = UIColor.whiteColor()
         self.tabBar.barTintColor = UIColor(red:0.00, green:0.49, blue:0.76, alpha:1.0)
@@ -36,7 +40,6 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
 }
 
 extension UITabBar {
-    
     override public func sizeThatFits(size: CGSize) -> CGSize {
         super.sizeThatFits(size)
         var sizeThatFits = super.sizeThatFits(size)

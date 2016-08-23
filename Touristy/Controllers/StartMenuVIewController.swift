@@ -13,12 +13,9 @@ class StartMenuViewController: UIViewController, Navigable {
     let currentView = StartView()
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
-        
-        //self.view = StartView()
         self.view.addSubview(self.currentView!)
         self.view.addSubview(self.setupNavBar())
         self.currentView?.startButton.addTarget(self, action: #selector(startButtonTapped), forControlEvents: UIControlEvents.TouchUpInside)
-        //self.view.backgroundColor = UIColor.grayColor()
     }
     
     override func viewDidLoad() {
