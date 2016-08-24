@@ -9,6 +9,8 @@
 import MapKit
 
 struct Location {
+    // MARK: - Properties 
+    
     let latitude: CGFloat
     let longitude: CGFloat
     let coordinate: CLLocationCoordinate2D

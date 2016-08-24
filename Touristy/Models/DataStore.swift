@@ -10,7 +10,8 @@ import UIKit
 import SwiftyJSON
 
 class DataStore {
+    // MARK: - Properties 
+    
+    // MARK: - Singleton
     static let sharedInstance = DataStore()
-    
-    
 }

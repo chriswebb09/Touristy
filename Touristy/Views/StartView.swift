@@ -9,12 +9,16 @@
 import UIKit
 
 class StartView: UIView {
+    // MARK: - Properties
+    
     let welcomeLabel: UILabel! = UILabel()
     let startButton: UIButton! = UIButton()
     let settingsButton: UIButton! = UIButton()
     let titleLabel = UILabel()
     let screenHeight = UIScreen.mainScreen().bounds.height
     let screenWidth =  UIScreen.mainScreen().bounds.width
+    
+    // MARK: - Setup view and add subviews to view 
     
     required init?(coder: NSCoder = NSCoder.empty()) {
         super.init(coder:coder)
@@ -27,6 +31,8 @@ class StartView: UIView {
         self.setupConstraints()
     }
     
+    // MARK: - Setup welcome label
+    
     func setupMenu() {
         //self.welcomeLabel.frame = CGRectMake(40, 200, 400, 60)
         self.welcomeLabel.text = "Welcome to your historical adventure!"
@@ -36,6 +42,8 @@ class StartView: UIView {
         
     }
     
+    // MARK: - Setup start button
+    
     func setupButtons() {
         //self.startButton.frame = CGRectMake(125, 350, 150, 60)
         self.startButton.layer.backgroundColor = UIColor.blueColor().CGColor
@@ -43,6 +51,7 @@ class StartView: UIView {
         self.startButton.setTitle("Start", forState: .Normal)
     }
     
+    // MARK: - Setup constraints
     
     func setupConstraints() {
         self.startButton.snp_makeConstraints { (make) -> Void in

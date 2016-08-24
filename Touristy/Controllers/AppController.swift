@@ -10,6 +10,7 @@ import UIKit
 import SnapKit
 
 class AppController: UITabBarController, UITabBarControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate = self
@@ -26,17 +27,11 @@ class AppController: UITabBarController, UITabBarControllerDelegate {
         let controllers = [tabOne, tabTwo]
         self.viewControllers = controllers
     }
-    
-    //    override func viewDidLoad() {
-    //        super.viewDidLoad()
-    //        // Do any additional setup after loading the view, typically from a nib.
-    //    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    //let iconOne = UITabBarItem(title: "Title", image: UIImage(named: "someImage.png"), selectedImage: UIImage(named: "otherImage.png"))
-    //item1.tabBarItem = icon1
 }
 

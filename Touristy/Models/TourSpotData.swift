@@ -9,6 +9,7 @@
 import UIKit
 
 struct TourSpotData {
+    // MARK: - Properties 
     var mostVisited: Int
     var numberOfTriviaQuestionsAnsweredCorrectly: Int
     var totalNumberOfTriviaQuestionsAsked: Int

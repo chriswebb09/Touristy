@@ -15,8 +15,12 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         delegate = self
     }
     
+    // MARK: - Setup basic tab bar interface 
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
+        
+        // MARK: - Instantiate view controllers that will be added to tab bar 
         
         let initTab = InitialViewController()
         let startTab = StartMenuViewController()
@@ -32,6 +36,8 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         self.tabBar.tintColor = UIColor.whiteColor()
         self.tabBar.barTintColor = UIColor(red:0.00, green:0.49, blue:0.76, alpha:1.0)
     }
+    
+    // MARK: - Selected tab
     
     func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
         print("Should select viewController: \(viewController.title) ?")

@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 
 class CameraView: UIViewController {
+    // MARK: - Properties
     var headsUpDisplay = Camera()
     var founderImage: UIImageView! = UIImageView()
     var augmentedImage: UIImageView! = UIImageView()
@@ -24,6 +25,7 @@ class CameraView: UIViewController {
         return preview
     }()
     
+    // MARK: - Loaded View
     override func viewDidLoad() {
         self.headsUpDisplay.setupCameraSession()
     }

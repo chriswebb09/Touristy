@@ -10,6 +10,7 @@ import UIKit
 import AVFoundation
 
 class Camera: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
+    
     //let cameraSession = AVCaptureSession()
     let captureDevice = AVCaptureDevice.defaultDeviceWithMediaType(AVMediaTypeVideo) as AVCaptureDevice
     
@@ -50,6 +51,10 @@ class Camera: NSObject, AVCaptureVideoDataOutputSampleBufferDelegate {
         }
     }
     
-    func captureOutput(captureOutput: AVCaptureOutput!, didOutputSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
+    // MARK: - Capture image output from camera 
+    
+    func captureOutput(captureOutput: AVCaptureOutput!,
+                       didOutputSampleBuffer sampleBuffer: CMSampleBuffer!,
+                       fromConnection connection: AVCaptureConnection!) {
     }
 }

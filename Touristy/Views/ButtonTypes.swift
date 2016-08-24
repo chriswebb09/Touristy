@@ -8,6 +8,8 @@
 
 import UIKit
 
+// MARK: - Record Button 
+
 struct RecordButton {
     var recordButton = UIButton()
     
@@ -18,6 +20,7 @@ struct RecordButton {
     }
 }
 
+// MARK: - Cancel Button
 
 struct CancelButton {
     var cancelButton = UIButton()
@@ -29,6 +32,7 @@ struct CancelButton {
     }
 }
 
+// MARK: - StartTour Button
 
 struct StartTourButton {
     var startTourButton = UIButton()

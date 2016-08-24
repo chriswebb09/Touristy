@@ -10,6 +10,9 @@ import UIKit
 import MapKit
 
 class MapKitViewController: UIViewController, MKMapViewDelegate  {
+    // MARK: - Properties 
+    
+    // MARK: - Historical location properties 
     
     var trinityChurch = HistoricalLocation()
     var saintPauls = HistoricalLocation()
@@ -18,6 +21,8 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
     var bowlingGreen = HistoricalLocation()
     var historicalLocal: [String: HistoricalLocation]?
     
+    // MARK: - Setup map view, initial location, region radius, location manager 
+    
     let mapView: MKMapView! = MKMapView()
     var initialLocation = CLLocation(latitude: 34.4248, longitude: -118.5971)
     let regionRadius: CLLocationDistance = 1000
@@ -25,6 +30,9 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
     
     override func viewDidLoad() {
         self.mapView.delegate = self
+        
+        // MARK: - Instantiate HistoricalLocations 
+        
         self.trinityChurch = HistoricalLocation(
             title: "Start",
             locationName: "Trinity Church",
@@ -66,6 +74,8 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
                 longitude: -74.00594130000002),
             distance: CLLocationDistance(200))
         
+        // MARK: - Collect HistoricalLocation objects into collection
+        
         self.historicalLocal = ["Trinity" : self.trinityChurch,
                                 "St Pauls" : self.saintPauls,
                                 "Federal Hall" : self.federalHall,
@@ -76,6 +86,8 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
         self.centerMapOnLocation(self.initialLocation)
     }
     
+    // MAKE: - Center the map on a given location
+    
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 2.0,
@@ -83,6 +95,8 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
         self.mapView.setRegion(coordinateRegion,
                                animated: true)
     }
+    
+    // MARK: - Render circle on mapview 
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
         
@@ -110,6 +124,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 //    }
 
 extension MapKitViewController: CLLocationManagerDelegate {
+    // MARK: - getUserLocation()
         func getUserLocation() -> CLLocation? {
             self.locationManager.delegate = self
             self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
@@ -119,7 +134,9 @@ extension MapKitViewController: CLLocationManagerDelegate {
             let userAuthorized = (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedAlways)
             if userAuthorized { return self.locationManager.location } else { return nil }
         }
-        
+    
+    // MARK: - setupCurrentLocation() 
+    
         private func setupCurrentLocation() {
             if let location = getUserLocation() {
                 self.initialLocation = location

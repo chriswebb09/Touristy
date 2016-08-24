@@ -17,12 +17,16 @@ import Foundation
 import CoreData
 
 class CoreDataStore {
+    // MARK: - Properties 
+    
     static let sharedInstance = CoreDataStore()
     let storeName = "Touristy"
     let storeFilename = "Touristy.sqlite"
     
     var locationDataPoints: [LocationEntry] = []
     static let sharedDataStore = DataStore()
+    
+    
     //MARK: - Core Data Saving support
     
     func saveContext () {
@@ -36,6 +40,8 @@ class CoreDataStore {
         }
     }
     
+    // MARK: - Fetch data 
+    
     func fetchData() {
         
         let locationDataFetch = NSFetchRequest(entityName: "LocationData")
@@ -46,6 +52,9 @@ class CoreDataStore {
             print(fetchError)
         }
     }
+    
+    // MARK: - Generate test data 
+    
     func generateTestData() {
     }
     

@@ -10,10 +10,13 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
+// MARK: - Basic routable protocol
 
 protocol Routable {
     var method: String { get }
 }
+
+// MARK: - HTTP GET/POST Request router enum
 
 enum MethodRouter: Routable {
     case GET, POST
@@ -25,6 +28,8 @@ enum MethodRouter: Routable {
     }
 }
 
+// MARK: - Basic request protocol for internet data calls
+
 protocol Request {
     var method:String { get }
     var baseURL: String { get }
@@ -32,6 +37,8 @@ protocol Request {
     var parameters: Dictionary<String, String> { get }
     var headers: Dictionary<String, String> { get }
 }
+
+// MARK: - Setup GetRequest struct using Request protocol 
 
 struct GetRequest: Request {
     var method: String { return MethodRouter.GET.method }

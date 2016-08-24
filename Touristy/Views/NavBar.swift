@@ -10,7 +10,12 @@ import UIKit
 
 
 class NavBar {
+    
+    // MARK: - Properties
+    
     let width: CGFloat = UIScreen.mainScreen().bounds.width
+    
+    // MARK: - Setup navigation bar 
     
     func setup() -> UINavigationBar {
         let navBar: UINavigationBar = UINavigationBar(frame: CGRect(x: 0, y: 20, width:self.width, height: 50))

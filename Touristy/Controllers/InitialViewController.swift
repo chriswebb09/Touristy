@@ -9,7 +9,8 @@
 import UIKit
 import SnapKit
 
-class InitialViewController: UIViewController, Navigable {
+class InitialViewController: UIViewController {
+    // MARK: - Properties
     
     var VCTitleLabel: UILabel! = UILabel() {
         didSet {
@@ -22,7 +23,7 @@ class InitialViewController: UIViewController, Navigable {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(true)
-        self.view.addSubview(self.setupNavBar())
+        self.view.addSubview(NavBar().setup())
         self.setupLabels()
         self.view.backgroundColor = UIColor.grayColor()
     }
@@ -43,6 +44,6 @@ class InitialViewController: UIViewController, Navigable {
     }
     
     func dismissView() {
-        dismissViewControllerAnimated(true, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
 }

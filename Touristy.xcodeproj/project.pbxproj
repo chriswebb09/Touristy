@@ -31,11 +31,8 @@
 		AF7777EB1D61114400303DBB /* StartMenuVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */; };
 		AF7777ED1D61123500303DBB /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EC1D61123500303DBB /* StartView.swift */; };
 		AF7777EF1D611D6F00303DBB /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7777EE1D611D6F00303DBB /* Events.swift */; };
-		AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD581D5C551C0012A55B /* Navigable.swift */; };
-		AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD9AD5A1D5C55330012A55B /* Tabable.swift */; };
 		AFDC1E611D5FC275005C1CCF /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */; };
 		AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */; };
-		AFDC1E651D5FCE99005C1CCF /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */; };
 		AFDC1E671D5FCF81005C1CCF /* ButtonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */; };
 		AFE6251A1D6D01F40089778A /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE625151D6D01F40089778A /* CoreDataStore.swift */; };
 		AFE6251D1D6D01F40089778A /* Touristy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFE625181D6D01F40089778A /* Touristy.xcdatamodeld */; };
@@ -76,11 +73,8 @@
 		AF7777EC1D61123500303DBB /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		AF7777EE1D611D6F00303DBB /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
 		AFD1DE791D5BD9F60012C3B4 /* Touristy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touristy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFD9AD581D5C551C0012A55B /* Navigable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Navigable.swift; sourceTree = "<group>"; };
-		AFD9AD5A1D5C55330012A55B /* Tabable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tabable.swift; sourceTree = "<group>"; };
 		AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 		AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
-		AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTypes.swift; sourceTree = "<group>"; };
 		AFE625151D6D01F40089778A /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataStore.swift; path = CoreData/CoreDataStore.swift; sourceTree = "<group>"; };
 		AFE625191D6D01F40089778A /* Touristy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Touristy.xcdatamodel; sourceTree = "<group>"; };
@@ -125,8 +119,6 @@
 				AF7091FD1D5BDC84001DECE7 /* InitialViewController.swift */,
 				AF7091FE1D5BDC84001DECE7 /* NavigationController.swift */,
 				AF7091FF1D5BDC84001DECE7 /* TabBarController.swift */,
-				AFD9AD581D5C551C0012A55B /* Navigable.swift */,
-				AFD9AD5A1D5C55330012A55B /* Tabable.swift */,
 				AFDC1E601D5FC275005C1CCF /* MapKitViewController.swift */,
 				AF7777EA1D61114400303DBB /* StartMenuVIewController.swift */,
 			);
@@ -163,7 +155,6 @@
 				AF70920B1D5BDC84001DECE7 /* MainTableView.swift */,
 				AF70920C1D5BDC84001DECE7 /* MainView.swift */,
 				AFDC1E621D5FCBD3005C1CCF /* CameraView.swift */,
-				AFDC1E641D5FCE99005C1CCF /* RecordButton.swift */,
 				AFDC1E661D5FCF81005C1CCF /* ButtonTypes.swift */,
 				AF7777EC1D61123500303DBB /* StartView.swift */,
 				AFE759341D6282C60072FF76 /* NavBar.swift */,
@@ -367,7 +358,6 @@
 				AFE6252D1D6D05160089778A /* LocationEntry.swift in Sources */,
 				AF70921C1D5BDC84001DECE7 /* MainFeedCell.swift in Sources */,
 				AF70920D1D5BDC84001DECE7 /* AppDelegate.swift in Sources */,
-				AFDC1E651D5FCE99005C1CCF /* RecordButton.swift in Sources */,
 				AF7092231D5BE503001DECE7 /* LocationModel.swift in Sources */,
 				AF7092181D5BDC84001DECE7 /* DataStore.swift in Sources */,
 				AFE6251D1D6D01F40089778A /* Touristy.xcdatamodeld in Sources */,
@@ -375,13 +365,11 @@
 				AF7092111D5BDC84001DECE7 /* AppController.swift in Sources */,
 				AFE625311D6D05380089778A /* Locations.swift in Sources */,
 				AFE625301D6D05380089778A /* Locations+CoreDataProperties.swift in Sources */,
-				AFD9AD5B1D5C55330012A55B /* Tabable.swift in Sources */,
 				AFE759331D6280340072FF76 /* NSCoderExtension.swift in Sources */,
 				AF7092211D5BE4CF001DECE7 /* APIClient.swift in Sources */,
 				AF7092141D5BDC84001DECE7 /* NavigationController.swift in Sources */,
 				AF7092151D5BDC84001DECE7 /* TabBarController.swift in Sources */,
 				AF7777ED1D61123500303DBB /* StartView.swift in Sources */,
-				AFD9AD591D5C551C0012A55B /* Navigable.swift in Sources */,
 				AF7777EB1D61114400303DBB /* StartMenuVIewController.swift in Sources */,
 				AFDC1E631D5FCBD3005C1CCF /* CameraView.swift in Sources */,
 				AF7092191D5BDC84001DECE7 /* TourSpotData.swift in Sources */,
