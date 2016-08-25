@@ -43,7 +43,7 @@ class CameraViewController: UIViewController {
         view.bringSubviewToFront(augmentedImage)
     }
     
-    // MARK: - Implement cancel button functionality 
+    // MARK: - Implement cancel button functionality
     
     func cancelButtonTapped(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)

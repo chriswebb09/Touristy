@@ -15,12 +15,12 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         delegate = self
     }
     
-    // MARK: - Setup basic tab bar interface 
+    // MARK: - Setup basic tab bar interface
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        // MARK: - Instantiate view controllers that will be added to tab bar 
+        // MARK: - Instantiate view controllers that will be added to tab bar
         
         let initTab = InitialViewController()
         let startTab = StartMenuViewController()

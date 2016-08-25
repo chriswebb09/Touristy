@@ -10,7 +10,7 @@ import MapKit
 
 class HistoricalLocation: NSObject, MKAnnotation {
     // MARK: - Properties
-
+    
     let title: String?
     let locationName: String?
     let coordinate: CLLocationCoordinate2D
@@ -27,7 +27,7 @@ class HistoricalLocation: NSObject, MKAnnotation {
         self.halo = CLCircularRegion(center:self.coordinate, radius: 100, identifier: locationName)
     }
     
-    // MARK: - Convenience override init 
+    // MARK: - Convenience override init
     
     convenience override init() {
         self.init(title: "No Location", locationName: "None", coordinate:(CLLocationCoordinate2D(latitude: 0.0000, longitude: 0.0000)), distance: 0.0000)

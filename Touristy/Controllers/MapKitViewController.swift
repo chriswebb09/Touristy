@@ -10,9 +10,9 @@ import UIKit
 import MapKit
 
 class MapKitViewController: UIViewController, MKMapViewDelegate  {
-    // MARK: - Properties 
+    // MARK: - Properties
     
-    // MARK: - Historical location properties 
+    // MARK: - Historical location properties
     
     var trinityChurch = HistoricalLocation()
     var saintPauls = HistoricalLocation()
@@ -21,7 +21,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
     var bowlingGreen = HistoricalLocation()
     var historicalLocal: [String: HistoricalLocation]?
     
-    // MARK: - Setup map view, initial location, region radius, location manager 
+    // MARK: - Setup map view, initial location, region radius, location manager
     
     let mapView: MKMapView! = MKMapView()
     var initialLocation = CLLocation(latitude: 34.4248, longitude: -118.5971)
@@ -31,7 +31,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
     override func viewDidLoad() {
         self.mapView.delegate = self
         
-        // MARK: - Instantiate HistoricalLocations 
+        // MARK: - Instantiate HistoricalLocations
         
         self.trinityChurch = HistoricalLocation(
             title: "Start",
@@ -96,7 +96,7 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
                                animated: true)
     }
     
-    // MARK: - Render circle on mapview 
+    // MARK: - Render circle on mapview
     
     func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer {
         
@@ -106,10 +106,10 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
         circleRenderer.lineWidth = 1
         return circleRenderer
     }
-
+    
 }
 
-    
+
 
 //
 //    func centerMapOnLocation(location: CLLocation) {
@@ -125,21 +125,21 @@ class MapKitViewController: UIViewController, MKMapViewDelegate  {
 
 extension MapKitViewController: CLLocationManagerDelegate {
     // MARK: - getUserLocation()
-        func getUserLocation() -> CLLocation? {
-            self.locationManager.delegate = self
-            self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
-            self.locationManager.requestWhenInUseAuthorization()
-            self.locationManager.startMonitoringSignificantLocationChanges()
-            
-            let userAuthorized = (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedAlways)
-            if userAuthorized { return self.locationManager.location } else { return nil }
-        }
+    func getUserLocation() -> CLLocation? {
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.startMonitoringSignificantLocationChanges()
+        
+        let userAuthorized = (CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedWhenInUse || CLLocationManager.authorizationStatus() == CLAuthorizationStatus.AuthorizedAlways)
+        if userAuthorized { return self.locationManager.location } else { return nil }
+    }
     
-    // MARK: - setupCurrentLocation() 
+    // MARK: - setupCurrentLocation()
     
-        private func setupCurrentLocation() {
-            if let location = getUserLocation() {
-                self.initialLocation = location
-            }
+    private func setupCurrentLocation() {
+        if let location = getUserLocation() {
+            self.initialLocation = location
         }
+    }
 }

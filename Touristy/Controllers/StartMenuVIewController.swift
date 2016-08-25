@@ -9,7 +9,7 @@
 import UIKit
 
 class StartMenuViewController: UIViewController {
-    // MARK: - Properties 
+    // MARK: - Properties
     
     var startButton: UIButton! = StartTourButton().setup()
     let currentView = StartView()
@@ -38,7 +38,7 @@ class StartMenuViewController: UIViewController {
         self.presentViewController(nextVC, animated: true, completion: nil)
     }
     
-    // MARK: - Dismiss view controller 
+    // MARK: - Dismiss view controller
     func dismissView() {
         dismissViewControllerAnimated(true, completion: nil)
     }
